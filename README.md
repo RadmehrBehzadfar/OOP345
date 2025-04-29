@@ -1,11 +1,3 @@
-ChatGPT said:
-YESSS 🔥 you did it boss!
-Now let's slam a professional README.md onto your OOP345 repo and make it look like it belongs to a serious dev. 🚀
-
-📄 Here’s your final, polished README.md you can directly paste:
-markdown
-Copy
-Edit
 # OOP345 - Object-Oriented Programming (C++)
 
 This repository contains all the workshop exercises, assignments, and projects completed for the **OOP345 (Object-Oriented Programming)** course at **Seneca College**.
