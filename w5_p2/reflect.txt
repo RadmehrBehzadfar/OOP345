@@ -1,0 +1,25 @@
+/*/////////////////////////////////////////////////////////////////////////
+Student ID#: 148786221
+Email : rbehzadfar@myseneca.ca
+Section : NRA
+Date : 2024 - 02 - 18
+
+Authenticity Declaration :
+I have done all the coding by myself and only copied the code that
+my professor provided to complete my workshops and assignments.
+
+/////////////////////////////////////////////////////////////////////////*/
+
+Workshop 5
+
+In this Workshop I've faced a different range of challenges and I have learned new concepts. First, working with templates in C++ was a significant learning thing. realizing how to define and utilize templated classes like Collection required deep knowledge of programming. I also understood the power and flexibility of templates.
+
+Lambda was another key concept in this workshop. This expression was used vastly throughout the code, specifically in the main function for adjusting book prices and handling spelling corrections. Lambda expressions allowed for concise and expressive code, enhancing readability and maintainability.
+
+Effective error handling was a vital component of the workshop. Participants learned how to employ try-catch blocks and accurately communicate error messages to guarantee the program's resilience. It's apparent that proficient error handling is imperative when developing code for production purposes.
+
+Moreover, this workshop provided practical experience in working with file I/O operations in C++. Loading data from external files, parsing it, and incorporating it into the program was a valuable skill that I honed during this workshop. Understanding how to handle file exceptions and gracefully exit the program in case of errors was crucial for ensuring smooth execution.
+
+Finally, the utilization of observers demonstrated the fundamental principle of event-driven programming. By implementing functions that notify observers whenever new items are added to collections, a new level of interactivity was added to the program, which showcased how software can dynamically respond to changes in state.
+
+Overall, this workshop was an great experience that gives  me understanding of C++ programming concepts and provided valuable insights into software development practices .From using templates and lambdas to handling errors and file I/O, each concept contributed to my growth as a programmer and prepared me to tackle more complex challenges in the future.

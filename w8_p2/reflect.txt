@@ -1,0 +1,17 @@
+/*/////////////////////////////////////////////////////////////////////////
+Student ID#: 148786221
+Email : rbehzadfar@myseneca.ca
+Section : NRA
+Date : 2024 - 03 - 24
+
+Authenticity Declaration :
+I have done all the coding by myself and only copied the code that
+my professor provided to complete my workshops and assignments.
+
+/////////////////////////////////////////////////////////////////////////*/
+
+In the recent class, I learned about using smart pointers and raw pointers in coding. Smart pointers like std::unique_ptr and std::shared_ptr manage memory automatically, so we don't have to do it manually.
+
+I noticed the difference between raw and smart pointers in my solution. Raw pointers need manual memory management, which can cause memory leaks if we forget to deallocate memory. On the other hand, smart pointers manage memory automatically, making the code stronger and reducing the chance of memory errors. They also help with exception safety by freeing resources if an exception occurs.
+
+I faced a problem with raw pointers when checking for a non-negative price of an item. An exception during the check stopped the program, so it didn't clean up memory as expected. I fixed this by updating the += operator to handle exceptions better. With smart pointers, this isn't an issue because they handle exceptions without stopping the program early.

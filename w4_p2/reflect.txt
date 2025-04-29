@@ -1,0 +1,19 @@
+/*/////////////////////////////////////////////////////////////////////////
+Student ID#: 148786221
+Email : rbehzadfar@myseneca.ca
+Section : NRA
+Date : 2024 - 02 - 11
+
+Authenticity Declaration :
+I have done all the coding by myself and only copied the code that
+my professor provided to complete my workshops and assignments.
+
+/////////////////////////////////////////////////////////////////////////*/
+
+We developed representations for classes and items – a toy, a child, an order – which served as a means to organise code and model the real world.
+And much of the workshop was devoted to the fundamentals of memory management, such as how to do dynamic memory allocation – putting new variables on the heap, using pointers and dynamic arrays – and cleaning up afterwards to keep things safe and free of leaks and crashes.
+Copy and move semantics were also discussed in the workshop, revealing ways to efficient manipulate object copies and movements, especially when dealing with large amounts of data.
+I also found that operator overloading was pretty cool: we got to redefine +-= and other operators to suit our classes, which made code easier to read.
+But writing to and reading from program’s external files was a new concept, and took time to get familiar with.
+Most of the time, even with that information, I had to debug my way through problems and figure out pointers one step at a time by trial and error.
+As a result, participating in this workshop was a practical exercise that has helped me better understand how I can write C++ code which properly constructs and destroys class instances while following the principles of encapsulation.

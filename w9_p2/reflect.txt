@@ -1,0 +1,19 @@
+/*/////////////////////////////////////////////////////////////////////////
+Student ID#: 148786221
+Email : rbehzadfar@myseneca.ca
+Section : NRA
+Date : 2024 - 03 - 31
+
+Authenticity Declaration :
+I have done all the coding by myself and only copied the code that
+my professor provided to complete my workshops and assignments.
+
+/////////////////////////////////////////////////////////////////////////*/
+
+1) Binary files were crucial for efficiently storing and retrieving treasure map data, offering a condensed, machine-readable format that boosts read/write speeds. Functions like enscribe and recall utilized binary file I/O operations for writing and reading map data, allowing the application to handle large volumes without concerns about text formatting or parsing.
+
+2) Binding functions streamlined parameter passing by creating callable entities with fixed arguments, aiding in concurrent task generation. This approach, exemplified by tying the digForTreasure method to specific map regions, minimized code repetition, enhanced readability, and supported asynchronous treasure hunting tasks.
+
+3) Employing multiple threads in the findTreasure function facilitated efficient CPU utilization and concurrent job execution. By parallelizing the treasure hunt across various map areas and leveraging multi-core processors, the application could expedite the process, particularly for large maps or computationally intensive tasks.
+
+4) Leveraging C++ concurrency tools like futures and packed tasks enabled asynchronous execution and result retrieval. Packed tasks provided callable entities for parallel execution, while futures accessed task results, enhancing overall program efficiency and responsiveness. This approach distributed computing activities among threads, improving scalability and responsiveness, especially for complex calculations or large datasets.

@@ -1,0 +1,46 @@
+/*/////////////////////////////////////////////////////////////////////////
+Student ID#: 148786221
+Email : rbehzadfar@myseneca.ca
+Section : NRA
+Date : 2024 - 01 - 29
+
+Authenticity Declaration :
+I have done all the coding by myself and only copied the code that
+my professor provided to complete my workshops and assignments.
+
+/////////////////////////////////////////////////////////////////////////*/
+This workshop was mainnly about input and getting lines using "getline" function which helped me better understanding and also practicing the subject which I have learnt in previous semester. What was new for me was the library "chrono" which gave me the ability to measure the time it takes for a function to be implemented.
+Thus it helped me to understand the significant time difference between the copy and move operations. The reason for significant time difference between copy and move operations in C++ is due to the deep copying involved in copies, which requires allocating new memory and copying data, whereas move operations transfer ownership of resources without the need for removing data copying, which results in lower overhead which also increase efficiency.
+s
+The StringSet constructor reads the file by counting the number of strings, allocating memory, and then reading the strings into the dynamic array. To avoid rereading, it can employ a flag or mechanism to check whether the file has already been processed. Example:
+StringSet::StringSet(const char *_filename)
+{
+    if (_filename && !isFileRead) // Check if the file has not been read
+    {
+        ifstream readFile(_filename);
+        string _temp;
+
+        if (readFile)
+        {
+            // to count the number of strings present in the file
+            while (getline(readFile, _temp, ' '))
+                ++s_CurRecord;
+
+            // allocates memory for that number of strings in the array
+            s_str = new string[s_CurRecord];
+
+            // re-reads the file
+            readFile.clear();
+            readFile.seekg(0, std::ios::beg);
+
+            int i = 0;
+            while (getline(readFile, s_str[i], ' '))
+                ++i;
+
+            isFileRead = true; // Set the flag to indicate that the file has been read
+        }
+    }
+}
+
+
+std::chrono::steady_clock provides a monotonic and stable clock, which is ideal for measuring durations while std::chrono::system_clock does represent the system's real-time wall clock, which is suitable for tasks requiring real-world time.

@@ -1,0 +1,16 @@
+/*/////////////////////////////////////////////////////////////////////////
+						Workshop 1 Part 2
+Full Name  : Radmehr Behzadfar
+Student ID#: 148786221
+Email      : rbehzadfar@myseneca.ca
+Section    : NRA
+Date : 2024-01-22
+
+Authenticity Declaration:
+I have done all the coding by myself and only copied the code that
+my professor provided to complete my workshops and assignments.
+
+/////////////////////////////////////////////////////////////////////////*/
+
+I found that the concept of this workshop is mainly about linkage between the modules, which was not new for me because although it is a new concept I used to use it before in one of my workshops in the previous term. The term "extern" then there was a good solution if I found a problem in Linker because it would make a somehow new instance of a function that I wanted( which is not the best way to explain it in fact all it does it is to make it usable and visible for all of the modules no matter what kind of change be made at any of them). But the term "static" was somehow new to me. In this workshop, I found it good practice to work with "static" and I have understood that many other linking errors can be solved with "static" linking as well, which makes a function work exclusively for that module. (would be compiled, but not connected to other modules.)
+Another concept that I practiced in this workshop was the concept of static variables, like the one I used in line 66 of the event.CPP: static unsigned int counter = 0; static variables would actually clarify the usage and relation of that variable, and depending on where to be used (the scope) they have different outcomes. If we use it inside a function scope then we are linking it only for that function, while if we use it in between of the functions then we can utilize it on the whole module. Because I have done the whole workshop almost in the way I was instructed there was not much significant difference in between on my first w1_p1 draft and the w1_p2.

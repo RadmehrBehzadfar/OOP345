@@ -1,0 +1,17 @@
+/*/////////////////////////////////////////////////////////////////////////
+Student ID#: 148786221
+Email : rbehzadfar@myseneca.ca
+Section : NRA
+Date : 2024 - 03 - 17
+
+Authenticity Declaration :
+I have done all the coding by myself and only copied the code that
+my professor provided to complete my workshops and assignments.
+
+/////////////////////////////////////////////////////////////////////////*/
+
+The above workshop utilized a number of STL functions. Starting with the vector, Song structures were stored as main variable m_song like "std::vector<Song> m_song;". This involved reading the file line by line, storing data in Song structures, and adding them to the vector. Vectors dynamically adjusted their size to accommodate new Song structures without initial sizes having been declared. Besides, a list was used to store found Song structures that was defined as “std::list<Song> result;”, but its specific attributes remained largely unused. All through <vector>, <list>, and <algorithm> were mentioned.
+
+Functions from <algorithm> such as sort were employed for ordering the vector using iterators and Lambda expressions depending on user needs. Features like for_each make it possible to perform uniform operations on vector elements as it is in function cleanAlbum”. Other functions like any_of and copy_if are also helpful in enhancing functionality. Especially copy_if is great when we want to move selected items from one container into another automatically resizing destination list using back_inserter.
+
+STL algorithms offer advantages over basic loops, such as inline implementation which improves code readability and debugging efficiency. They facilitate code creation by doing away with need of manually implementing each

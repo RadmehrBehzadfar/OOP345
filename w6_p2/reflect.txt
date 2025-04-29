@@ -1,0 +1,22 @@
+/*/////////////////////////////////////////////////////////////////////////
+Student ID#: 148786221
+Email : rbehzadfar@myseneca.ca
+Section : NRA
+Date : 2024 - 03 - 11
+
+Authenticity Declaration :
+I have done all the coding by myself and only copied the code that
+my professor provided to complete my workshops and assignments.
+
+/////////////////////////////////////////////////////////////////////////*/
+
+This workshop enhanced my abilities to deal with vectors and it helped me a lot to both understand the concept as well as syntax.
+The main Concepts for me were:
+
+1. Dealing with Dynamically Allocated Memory: Vector Deallocation.
+
+In this workshop, we discussed the method of dynamic memory allocation in vectors by using 'new.' The importance of ensuring that the memory is released was stressed, and it requires using ‘delete’ to deallocate it. In particular, when dealing with vectors of pointers (‘std::vector’), where each element may be pointing to a dynamically allocated object, if these objects are not deleted before the vector goes out of scope then there will be a constant presence of non-recoverable memory leaks in such programs. To rectify this situation, one must take care – navigate through the vector and manually remove each object from it before its destruction.
+
+2. Error Detection in loadData():
+
+The workshop enlightened us on how the function “loadData()” reads data from an input file and generates appropriate “Person” objects for them. It has been pointed out that not all data in the file might be valid hence necessitating robust error handling components. This was followed by an analysis on why each record must be carefully parsed and further provided with checks for inconsistencies or invalid information.Finally,a comprehensive approach was emphasized where unexpected data types exist or there are records representing unknown people’s kinds which helps to ensure that ‘loadData()’ remains reliable even without any ideas about such data representations-cum-person categories.
